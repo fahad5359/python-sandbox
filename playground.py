@@ -71,12 +71,40 @@
 
 
 
-class STUDENT:
-    stodentname="fahad"
+# class STUDENT:
+#     stodentname="fahad"
 
-p1=STUDENT()
-print(p1.stodentname)
+# p1=STUDENT()
+# print(p1.stodentname)
 
+# init function
+
+# class stdnt:
+#     def__init__(self, name, age):
+#      self.name=name
+#      self.age=age
+
+# p1 =stdnt("fahad",50)
+# print(p1.name)
+# @@@@@@@@@@@@@@@@@
+class Person:
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+
+p1 = Person("John", 36)
+
+print(p1.name)
+print(p1.age)
+
+class Student:
+    def __init__(self,name,id,course,level):
+        self.name=name
+        self.id=id
+        self.course=course
+        self.level=level
+
+        
 
 
 
