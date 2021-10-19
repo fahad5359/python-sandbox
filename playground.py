@@ -87,22 +87,32 @@
 # p1 =stdnt("fahad",50)
 # print(p1.name)
 # @@@@@@@@@@@@@@@@@
-class Person:
-  def __init__(self, name, age):
-    self.name = name
-    self.age = age
+# class Person:
+#   def __init__(self, name, age):
+#     self.name = name
+#     self.age = age
 
-p1 = Person("John", 36)
+# p1 = Person("John", 36)
 
-print(p1.name)
-print(p1.age)
+# print(p1.name)
+# print(p1.age)
 
 class Student:
-    def __init__(self,name,id,course,level):
+    def __init__(self, name, id, course, level):
         self.name=name
         self.id=id
         self.course=course
         self.level=level
+    def regster(self,id):
+       return id+"regstered"
+
+
+
+p1=Student("fahad","4370","co40","5th")
+
+print(p1.id)
+
+
 
         
 
