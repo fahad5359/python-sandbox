@@ -103,14 +103,21 @@ class Student:
         self.id=id
         self.course=course
         self.level=level
-    def regster(self,id):
-       return id+"regstered"
+    def regster(self,id="student with id is registered"):
+       return id
 
 
 
-p1=Student("fahad","4370","co40","5th")
 
-print(p1.id)
+
+
+stodent=Student("mohammed","3","333cs","6")
+
+
+
+print(stodent.name+" "+stodent.id+" "+stodent.course+" "+stodent.level)
+print(stodent.regster())
+
 
 
 
