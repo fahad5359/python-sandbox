@@ -36,18 +36,18 @@
 
 # print(frouts(ss=[]))
 
-froutscolor ={
-    "apple":"red",
-    "orange":"orange",
-    "banan":"yello",
-}
+# froutscolor ={
+#     "apple":"red",
+#     "orange":"orange",
+#     "banan":"yello",
+# }
 
 
-def floop():
- for x in froutscolor.values():
-    print(x)
+# def floop():
+#  for x in froutscolor.values():
+#     print(x)
 
-print(floop())
+# print(floop())
     
 
 # def randm():
@@ -66,7 +66,17 @@ print(floop())
 
 
   
-                          ############################ classes , constructors .... ############################
+         ############################ classes , constructors .... #######
+         
+
+
+
+class STUDENT:
+    stodentname="fahad"
+
+p1=STUDENT()
+print(p1.stodentname)
+
 
 
 
