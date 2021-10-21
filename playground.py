@@ -103,6 +103,7 @@ class Student:
         self.id=id
         self.course=course
         self.level=level
+        self.level=level
     def regster(self,id="student with id is registered"):
        return id
 
