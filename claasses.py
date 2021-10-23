@@ -43,9 +43,14 @@
 # x.printhmninfo()
 
 
-# class Targetpractice:
-#     def __init__(self,health):
-#         self.health=health
+class Targetpractice:
+    def __init__(self,health):
+        self.health=health
+
+class Robot(Targetpractice):
+    pass
+
+Robt =Robot(300)
 
 
 class Wepon:
@@ -69,5 +74,8 @@ class g20(Wepon):
     pass
 
 gg20 = g20("g20",200,180,"heavy")
-gg20.wpninfo()
+# gg20.wpninfo()
 
+
+# if(g20(dmg=50)>Robt()):
+#     print("The wewpon Killed the robot")
