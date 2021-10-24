@@ -11,7 +11,8 @@ class robot(Targetpractice):
     pass
 
 
-# ############################# Now we start with the wepons type and interaction with the target practice#######################
+
+# ############################# Now we start with the wepons type #######################
 
 class Wepon:
     def __init__(self, name, dmg, recoil, typee,):
@@ -33,7 +34,9 @@ class heavywpn(Wepon):
 
 
 # p20 = heavywpn("p20",200,"0","heavy")
+# هنا تم تعين السلاح و تم اعطاؤه قيم مثل ضررة و ارتداده..
 p20dmg = heavywpn("p20", 200, 55, "oo")
+# اما هنا اخذنا فنكشن الظرر لكي يتم مقارنته مع صحة او الهلث التابع للدمية
 p20dmg.wpndmg()
 # print(p20dmg.wpndmg())
 Roobot = robot(300)
