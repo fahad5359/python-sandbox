@@ -31,11 +31,11 @@ class Wepon:
 
 class heavywpn(Wepon):
     pass
-
+# ##################################################### the work start's bellow ####################
 
 # p20 = heavywpn("p20",200,"0","heavy")
 # هنا تم تعين السلاح و تم اعطاؤه قيم مثل ضررة و ارتداده..
-p20dmg = heavywpn("p20", 200, 55, "oo")
+p20dmg = heavywpn("p20", 500, 55, "oo")
 # اما هنا اخذنا فنكشن الظرر لكي يتم مقارنته مع صحة او الهلث التابع للدمية
 p20dmg.wpndmg()
 # print(p20dmg.wpndmg())
